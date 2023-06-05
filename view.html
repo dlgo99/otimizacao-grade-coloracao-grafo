@@ -1,0 +1,422 @@
+<html>
+<head>
+<title>Tabela de Aulas</title>
+<style>
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid black; padding: 8px; text-align: left; }
+.hidden { display: none; }
+.clickable { cursor: pointer; }
+</style>
+</head>
+<body>
+<script>
+function toggleVisibility(elementId) {
+    var element = document.getElementById(elementId);
+    element.classList.toggle("hidden");
+}
+</script>
+<h2 class="clickable" onclick="toggleVisibility('unit_coreu')">coreu</h2>
+<div id="unit_coreu" class="hidden">
+<h3 class="clickable" onclick="toggleVisibility('period_coreu_1')">1º período</h3>
+<div id="period_coreu_1" class="hidden">
+<h4 class="clickable" onclick="toggleVisibility('turno_coreu_1_Manhã')">Manhã</h4>
+<div id="turno_coreu_1_Manhã" class="hidden">
+<table>
+<tr>
+<th></th>
+<th>Segunda-feira</th>
+<th>Terça-feira</th>
+<th>Quarta-feira</th>
+<th>Quinta-feira</th>
+<th>Sexta-feira</th>
+</tr>
+<tr>
+<td>1º horário</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2º horário</td>
+<td>fisica1 (Walisson)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3º horário</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+<h4 class="clickable" onclick="toggleVisibility('turno_coreu_1_Tarde')">Tarde</h4>
+<div id="turno_coreu_1_Tarde" class="hidden">
+<table>
+<tr>
+<th></th>
+<th>Segunda-feira</th>
+<th>Terça-feira</th>
+<th>Quarta-feira</th>
+<th>Quinta-feira</th>
+<th>Sexta-feira</th>
+</tr>
+<tr>
+<td>1º horário</td>
+<td>fisica1 (Walisson)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2º horário</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3º horário</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+<h4 class="clickable" onclick="toggleVisibility('turno_coreu_1_Noite')">Noite</h4>
+<div id="turno_coreu_1_Noite" class="hidden">
+<table>
+<tr>
+<th></th>
+<th>Segunda-feira</th>
+<th>Terça-feira</th>
+<th>Quarta-feira</th>
+<th>Quinta-feira</th>
+<th>Sexta-feira</th>
+</tr>
+<tr>
+<td>1º horário</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2º horário</td>
+<td>fisica1 (Walisson)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3º horário</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+<h3 class="clickable" onclick="toggleVisibility('period_coreu_2')">2º período</h3>
+<div id="period_coreu_2" class="hidden">
+<h4 class="clickable" onclick="toggleVisibility('turno_coreu_2_Manhã')">Manhã</h4>
+<div id="turno_coreu_2_Manhã" class="hidden">
+<table>
+<tr>
+<th></th>
+<th>Segunda-feira</th>
+<th>Terça-feira</th>
+<th>Quarta-feira</th>
+<th>Quinta-feira</th>
+<th>Sexta-feira</th>
+</tr>
+<tr>
+<td>1º horário</td>
+<td></td>
+<td>fisica2 (Gabriel)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2º horário</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3º horário</td>
+<td>fisica2 (Gabriel)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+<h3 class="clickable" onclick="toggleVisibility('period_coreu_3')">3º período</h3>
+<div id="period_coreu_3" class="hidden">
+<h4 class="clickable" onclick="toggleVisibility('turno_coreu_3_Manhã')">Manhã</h4>
+<div id="turno_coreu_3_Manhã" class="hidden">
+<table>
+<tr>
+<th></th>
+<th>Segunda-feira</th>
+<th>Terça-feira</th>
+<th>Quarta-feira</th>
+<th>Quinta-feira</th>
+<th>Sexta-feira</th>
+</tr>
+<tr>
+<td>1º horário</td>
+<td>ciencia (Max)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2º horário</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3º horário</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<h2 class="clickable" onclick="toggleVisibility('unit_pocos')">pocos</h2>
+<div id="unit_pocos" class="hidden">
+<h3 class="clickable" onclick="toggleVisibility('period_pocos_7')">7º período</h3>
+<div id="period_pocos_7" class="hidden">
+<h4 class="clickable" onclick="toggleVisibility('turno_pocos_7_Noite')">Noite</h4>
+<div id="turno_pocos_7_Noite" class="hidden">
+<table>
+<tr>
+<th></th>
+<th>Segunda-feira</th>
+<th>Terça-feira</th>
+<th>Quarta-feira</th>
+<th>Quinta-feira</th>
+<th>Sexta-feira</th>
+</tr>
+<tr>
+<td>1º horário</td>
+<td></td>
+<td>artes (Walisson)</td>
+<td>artes (Walisson)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2º horário</td>
+<td></td>
+<td>artes (Walisson)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3º horário</td>
+<td></td>
+<td>artes (Walisson)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+<h3 class="clickable" onclick="toggleVisibility('period_pocos_8')">8º período</h3>
+<div id="period_pocos_8" class="hidden">
+<h4 class="clickable" onclick="toggleVisibility('turno_pocos_8_Noite')">Noite</h4>
+<div id="turno_pocos_8_Noite" class="hidden">
+<table>
+<tr>
+<th></th>
+<th>Segunda-feira</th>
+<th>Terça-feira</th>
+<th>Quarta-feira</th>
+<th>Quinta-feira</th>
+<th>Sexta-feira</th>
+</tr>
+<tr>
+<td>1º horário</td>
+<td>arquitetura (Gabriel)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2º horário</td>
+<td>arquitetura (Gabriel)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3º horário</td>
+<td>biologia2 (Max)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<h2 class="clickable" onclick="toggleVisibility('unit_praca')">praca</h2>
+<div id="unit_praca" class="hidden">
+<h3 class="clickable" onclick="toggleVisibility('period_praca_4')">4º período</h3>
+<div id="period_praca_4" class="hidden">
+<h4 class="clickable" onclick="toggleVisibility('turno_praca_4_Tarde')">Tarde</h4>
+<div id="turno_praca_4_Tarde" class="hidden">
+<table>
+<tr>
+<th></th>
+<th>Segunda-feira</th>
+<th>Terça-feira</th>
+<th>Quarta-feira</th>
+<th>Quinta-feira</th>
+<th>Sexta-feira</th>
+</tr>
+<tr>
+<td>1º horário</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2º horário</td>
+<td>matematica (Max)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3º horário</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+<h3 class="clickable" onclick="toggleVisibility('period_praca_5')">5º período</h3>
+<div id="period_praca_5" class="hidden">
+<h4 class="clickable" onclick="toggleVisibility('turno_praca_5_Tarde')">Tarde</h4>
+<div id="turno_praca_5_Tarde" class="hidden">
+<table>
+<tr>
+<th></th>
+<th>Segunda-feira</th>
+<th>Terça-feira</th>
+<th>Quarta-feira</th>
+<th>Quinta-feira</th>
+<th>Sexta-feira</th>
+</tr>
+<tr>
+<td>1º horário</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2º horário</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3º horário</td>
+<td>programacao (Walisson)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+<h3 class="clickable" onclick="toggleVisibility('period_praca_6')">6º período</h3>
+<div id="period_praca_6" class="hidden">
+<h4 class="clickable" onclick="toggleVisibility('turno_praca_6_Tarde')">Tarde</h4>
+<div id="turno_praca_6_Tarde" class="hidden">
+<table>
+<tr>
+<th></th>
+<th>Segunda-feira</th>
+<th>Terça-feira</th>
+<th>Quarta-feira</th>
+<th>Quinta-feira</th>
+<th>Sexta-feira</th>
+</tr>
+<tr>
+<td>1º horário</td>
+<td></td>
+<td></td>
+<td>biologia1 (Gabriel)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2º horário</td>
+<td></td>
+<td>biologia1 (Gabriel)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3º horário</td>
+<td></td>
+<td>biologia1 (Gabriel)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>

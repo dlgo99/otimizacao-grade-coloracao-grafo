@@ -63,7 +63,17 @@ while True: # do while
 for node, color in sorted(color_map.items(), key=lambda x: x[0]):
     print(vertice.vertices[node-1])
 
-    
+# Salvar em aulas.csv
+with open('aulas.csv', mode='w', newline='') as file:
+    writer = csv.writer(file)
+
+    # Escrever o cabeçalho do arquivo CSV
+    writer.writerow(['id', 'professor', 'disciplina', 'periodo', 'unidade', 'turno', 'dia', 'horario', 'cor'])
+
+    # Escrever os dados no arquivo CSV
+    for aula in vertice.vertices:
+        writer.writerow([aula.id, aula.professor, aula.disciplina.nome, aula.disciplina.periodo, aula.disciplina.unidade, aula.disciplina.turno, aula.cor.dia, aula.cor.horario, aula.cor.nome])
+
 # Plotar o grafo com as cores atribuídas aos nós
 nx.draw(G, with_labels=True, node_color=[vertice.vertices[node-1].cor.nome for node in G.nodes])
 plt.show()
